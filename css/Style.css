@@ -4,8 +4,6 @@
 }
 
 body{
-	max-width: 1920px;
-	margin: 0 auto;
     background-color: #E5E5E5;
     font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
@@ -30,24 +28,37 @@ img{
 	max-width: 100%;
 }
 
+.conteiner{
+	max-width: 1770px;
+	margin: 0 auto;
+}
+
+.header{
+	background-color: #FFFFFF;	
+}
+
 .header-up{
-	background-color: #FFFFFF;
 	display: flex;
-	height: 100px;
 }
 
 .header-logo1{
-	margin: 14px 729px 14px 75px;
+	margin-top: 14px;
+	margin-right: 729px;
 	width: 100%;
 	max-width: 224px;
-	height: 72px;
+}
+
+.nav{
+	display: flex;
 }
 
 .header-nav-list{
 	display: flex;
 	margin-top: 39px;
 	margin-bottom: 39px;
-	height: 22px;
+	width: 200%;
+	min-height: 23px;
+	max-width: 800px;
 }
 
 .header-nav-list-description{
@@ -74,19 +85,22 @@ img{
 	border-bottom: 2px solid #E1670E;
 }
 
-.header-nav-list-magnifier{
-	background: url(/img/лупа.png) no-repeat ;
-	padding: 24px;
+.header-nav-list-magnifier-open{
+	margin-top: 38px;
+	border: #FFFFFF;
+	background-color: #FFFFFF;
+}
+
+.header-nav-list-magnifier-form{
+	display: none;
 }
 
 .header-hero{
-	margin-left: 75px;
 	margin-bottom: 100px;
-	background: url(/img/hero1.jpg);
+	background: url(/img/hero1.jpg) no-repeat;
 	object-fit: contain;
 	width: 100%;
 	max-width: 1770px;
-	height: 620px;
 }
 
 .header-hero-heading{
@@ -114,6 +128,7 @@ img{
 
 .header-hero-btn{
 	margin-left: 80px;
+	margin-bottom: 100px;
 	padding: 25px 37px 25px 37px;
 	border-color: #FF9900;
 	font-size: 23px;
@@ -141,8 +156,7 @@ img{
 
 /* БЛОК О НАС */
 
-.conteiner-aboutus{
-	margin-left: 75px;
+.aboutus{
 	margin-bottom: 70px;
 }
 
@@ -156,7 +170,7 @@ img{
 .aboutus-description{
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 33px;
+	line-height: 32px;
 	width: 100%;
 	max-width: 1235px;
 	margin-bottom: 50px;
@@ -172,14 +186,15 @@ img{
 	width: 100%;
 	max-width: 868px;
 	height: 620px;
-	background: url(/img/онас1.jpg);
+	background: url(/img/онас1.jpg) no-repeat;
 	object-fit: contain;
 	align-items: flex-end;
 }
 
 .aboutus-block-first-common{
+	padding-top: 50px;
+	padding-bottom: 50px;
 	display: flex;
-	height: 196px;
 	background: rgba(0, 0, 0, 0.5);
 	align-items: center;
 }
@@ -281,8 +296,7 @@ img{
 
 /* Блок как мы работаем */
 
-.conteiner-work{
-	margin-left: 75px;
+.work{
 	margin-bottom: 100px;
 }
 
@@ -296,6 +310,10 @@ img{
 .work-steps-number{
 	margin-bottom: 45px;
 	display: flex;
+}
+
+.work-steps-number-description{
+	color: #333333;
 }
 
 .work-steps-number-description:not(:nth-child(4)){
@@ -330,7 +348,7 @@ img{
 
 .work-steps-consultation-description{
 	margin-right: 142px;
-	margin-bottom: 50px;
+	margin-bottom: 65px;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 33px;
@@ -340,13 +358,14 @@ img{
 
 .work-steps-detailed-btn{
 	margin-right: 32px;
-	padding: 20px 38px;
+	padding: 20px 36px;
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 19px;
 	border: 1px solid #FF9900;
 	color: #FFFFFF;;
 	background-color: #FF9900;
+	cursor: pointer;
 	transition: background .2s ease-in-out;
 }
 
@@ -369,6 +388,7 @@ img{
 	line-height: 19px;
 	color: #333333;
 	border: 1px solid #333333;
+	cursor: pointer;
 	transition-property: color background;
 	transition-duration: .2s;
 	transition-timing-function: ease-in-out;
@@ -401,7 +421,6 @@ img{
 /* БЛОК ВОПРОСЫ */
 
 .questions{
-	margin-left: 75px;
 	margin-bottom: 92px;
 }
 
@@ -413,15 +432,14 @@ img{
 }
 
 .questions-list-common{
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 31px;
+	padding-bottom: 31px;
 	width: 100%;
 	max-width: 1770px;
-	font-size: 24px;
-	font-weight: 700;
-	line-height: 32px;
 	border-top: 1px solid #CACACA;
-	background: url(/img/+х.svg) no-repeat right center;
+	transition-property: color border;
+	transition-duration: .2s;
+	transition-timing-function: ease-in-out;
 }
 
 .questions-list-common:last-child{
@@ -432,18 +450,47 @@ img{
 	color: #FF9900;
 	border-top: 1px solid #FF9900;
 	border-bottom: 1px solid #FF9900;
-	background: url(/img/+хhover.svg) no-repeat right center;
 }
 
 .questions-list-common:focus{
 	color: #FF9900;
 	border-top: 1px solid #FF9900;
 	border-bottom: 1px solid #FF9900;
-	background: url(/img/+хhover.svg) no-repeat right center;
 }
 
-.questions-list-common:active{
-	background: url(/img/+хactive.svg) no-repeat right center
+.questions-list-common-list{
+	display: flex;
+}
+
+.questions-list-common-list-text{
+	margin-right: 615px;
+	padding-top: 10px;
+	width: 100%;
+	max-width: 1105px;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 32px;
+}
+
+.questions-list-common-list-btn{
+	padding: 25px;
+	border: 0px;
+	background: url(/img/+х.svg) no-repeat center center;
+	transition-property: background;
+	transition-duration: .2s;
+	transition-timing-function: ease-in-out;
+}
+
+.questions-list-common-list-btn:hover{
+	background: url(/img/+хhover.svg) no-repeat center center;
+}
+
+.questions-list-common-list-btn:focus{
+	background: url(/img/+хhover.svg) no-repeat center center;
+}
+
+.questions-list-common-list-btn:active{
+	background: url(/img/+хactive.svg) no-repeat center center;
 }
 
 /* БЛОК ФУТЕР */
@@ -454,7 +501,6 @@ img{
 
 .conteiner-footer{
 	padding-top: 50px;
-	margin-left: 75px;
 	display: flex;
 }
 
@@ -506,67 +552,10 @@ img{
 
 .conteiner-footer-info-description-lan-facebook{
 	margin-right: 25px;
-	display: block;
-	width: 64px;
-	height: 64px;
-	background: url(/img/фейсбук.svg) no-repeat;
-	transition: background .2s ease-in-out;
-}
-
-.conteiner-footer-info-description-lan-facebook:hover{
-	background: url(/img/fbhover.svg) no-repeat;
-}
-
-.conteiner-footer-info-description-lan-facebook:focus{
-	border: 2px solid #FF9900;
-	background: url(/img/фейсбук.svg) no-repeat;
-}
-
-.conteiner-footer-info-description-lan-facebook:active{
-	background: url(/img/fbactive.svg) no-repeat;
 }
 
 .conteiner-footer-info-description-lan-vk{
 	margin-right: 25px;
-	display: block;
-	width: 64px;
-	height: 64px;
-	background: url(/img/vk.svg) no-repeat;
-	transition: background .2s ease-in-out;
-}
-
-.conteiner-footer-info-description-lan-vk:hover{
-	background: url(/img/vkhover.svg) no-repeat;
-}
-
-.conteiner-footer-info-description-lan-vk:focus{
-	border: 2px solid #FF9900;
-	background: url(/img/vk.svg) no-repeat;
-}
-
-.conteiner-footer-info-description-lan-vk:active{
-	background: url(/img/vkactive.svg) no-repeat;
-}
-
-.conteiner-footer-info-description-lan-instagram{
-	display: block;
-	width: 64px;
-	height: 64px;
-	background: url(/img/instagram.svg) no-repeat;
-	transition: background .2s ease-in-out;
-}
-
-.conteiner-footer-info-description-lan-instagram:hover{
-	background: url(/img/instagramhover.svg) no-repeat;
-}
-
-.conteiner-footer-info-description-lan-instagram:focus{
-	border: 2px solid #FF9900;
-	background: url(/img/instagram.svg) no-repeat;
-}
-
-.conteiner-footer-info-description-lan-instagram:active{
-	background: url(/img/instagramactive.svg) no-repeat;
 }
 
 .conteiner-footer-form{
@@ -585,10 +574,11 @@ img{
 
 .conteiner-footer-form-name{
 	margin-bottom: 25px;
+	padding-top: 22px;
+	padding-bottom: 22px;
 	padding-left: 24px;
 	width: 200%;
 	max-width: 570px;
-	height: 60px;
 	border: #414141;
 	background: #414141;
 	color: #FFFFFF;
@@ -609,10 +599,11 @@ img{
 
 .conteiner-footer-form-email{
 	margin-bottom: 25px;
+	padding-top: 22px;
+	padding-bottom: 22px;
 	padding-left: 24px;
 	width: 200%;
 	max-width: 570px;
-	height: 60px;
 	border: #414141;
 	background: #414141;
 	color: #FFFFFF;
@@ -633,12 +624,11 @@ img{
 
 .conteiner-footer-form-text{
 	margin-bottom: 32px;
+	padding-top: 26px;
 	padding-left: 24px;
 	padding-bottom: 104px;
 	width: 200%;
 	max-width: 570px;
-	height: 150px;
-	padding-top: 14px;
 	border: #414141;
 	background: #414141;
 	color: #FFFFFF;
@@ -689,6 +679,7 @@ img{
 }
 
 .conteiner-footer-form-approval{
+	display: inline-block;
 	width: 300px;
 	font-size: 16px;
 	font-weight: 400;
