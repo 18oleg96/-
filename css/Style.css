@@ -66,6 +66,7 @@ img{
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 22px;
+	min-height: 24px;
 }
 
 .header-nav-list-description:hover{
@@ -481,15 +482,15 @@ img{
 	transition-timing-function: ease-in-out;
 }
 
-.questions-list-common-list-btn:hover{
+.questions-list-common:hover .questions-list-common-list-btn{
+	background: url(/img/+хhover.svg) no-repeat center center
+}
+
+.questions-list-common:focus .questions-list-common-list-btn{
 	background: url(/img/+хhover.svg) no-repeat center center;
 }
 
-.questions-list-common-list-btn:focus{
-	background: url(/img/+хhover.svg) no-repeat center center;
-}
-
-.questions-list-common-list-btn:active{
+.questions-list-common:active .questions-list-common-list-btn{
 	background: url(/img/+хactive.svg) no-repeat center center;
 }
 
@@ -554,8 +555,47 @@ img{
 	margin-right: 25px;
 }
 
+.conteiner-footer-info-description-lan-facebook:hover svg path{
+	fill: #FF9900;
+}
+
+.conteiner-footer-info-description-lan-facebook:focus{
+	border: 2px solid #FF9900;
+	padding: 2px;
+}
+
+.conteiner-footer-info-description-lan-facebook:active svg path{
+	fill: #E1670E;
+}
+
 .conteiner-footer-info-description-lan-vk{
 	margin-right: 25px;
+}
+
+.conteiner-footer-info-description-lan-vk:hover svg path{
+	fill: #FF9900;
+}
+
+.conteiner-footer-info-description-lan-vk:focus{
+	border: 2px solid #FF9900;
+	padding: 2px;
+}
+
+.conteiner-footer-info-description-lan-vk:active svg path{
+	fill: #E1670E;
+}
+
+.conteiner-footer-info-description-lan-instagram:hover svg path{
+	fill: #FF9900;
+}
+
+.conteiner-footer-info-description-lan-instagram:focus{
+	border: 2px solid #FF9900;
+	padding: 2px;
+}
+
+.conteiner-footer-info-description-lan-instagram:active svg path{
+	fill: #E1670E;
 }
 
 .conteiner-footer-form{
