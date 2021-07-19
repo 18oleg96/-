@@ -1,3 +1,39 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/MontserratBold.woff2') format('woff2'),
+		url('../fonts/MontserratBold.woff') format('woff');
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/MontserratExtraBold.woff2') format('woff2'),
+		url('../fonts/MontserratExtraBold.woff') format('woff');
+	font-display: swap;
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/MontserratRegular.woff2') format('woff2'),
+		url('../fonts/MontserratRegular.woff') format('woff');
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/MontserratSemiBold.woff2') format('woff2'),
+		url('../fonts/MontserratSemiBold.woff') format('woff');
+	font-display: swap;
+	font-weight: 600;
+	font-style: normal;
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0px;
@@ -29,8 +65,10 @@ img{
 }
 
 .conteiner{
-	max-width: 1770px;
+	max-width: 1870px;
 	margin: 0 auto;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .header{
@@ -46,6 +84,10 @@ img{
 	margin-right: auto;
 	width: 100%;
 	max-width: 224px;
+}
+
+.header-logo:focus-visible {
+	outline: 3px solid #FF9900;
 }
 
 .nav{
@@ -67,16 +109,39 @@ img{
 	min-height: 24px;
 }
 
-.header-nav-list-description:hover{
-	border-bottom: 2px solid #FF9900;
+.header-nav-list-description a {
+    display: inline-block;
+    color: #333333;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
 }
-
-.header-nav-list-description-link{
-	color: #333333;
+.header-nav-list-description a:after {
+    display: block;
+    content: "";
+    background-color: #FF9900;
+    height: 2px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    -webkit-transition: width .2s ease-in-out;
+    -moz--transition: width .2s ease-in-out;
+    transition: width .2s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.header-nav-list-description a:hover:after{
+    width: 100%;
 }
 
 .header-nav-list-description-link:focus{
-	border: 2px solid #ff9900;
+	border: 2px solid #FF9900;
+}
+
+.header-nav-list-description-link:focus-visible {
+	outline: 2px solid #FF9900;
 }
 
 .header-nav-list-description-link:active{
@@ -88,6 +153,31 @@ img{
 	padding-top: 38px;
 	border: #FFFFFF;
 	background-color: #FFFFFF;
+	cursor: pointer;
+}
+
+.header-nav-list-magnifier-open:hover svg path{
+	stroke: #FF9900;
+}
+.header-nav-list-magnifier-open:hover svg rect{
+	fill: #FF9900;
+}
+
+.header-nav-list-magnifier-open:focus{
+	border: 2px solid #FF9900;
+	padding: 4px 4px 2px 4px;
+	margin-top: 33px;
+}
+
+.header-nav-list-magnifier-open:focus-visible {
+	outline: 2px solid #FF9900;
+}
+
+.header-nav-list-magnifier-open:active svg path{
+	stroke: #FF9900;
+}
+.header-nav-list-magnifier-open:active svg rect{
+	fill: #FF9900;
 }
 
 .header-nav-list-magnifier-form{
@@ -123,18 +213,23 @@ img{
 .header-hero-btn{
 	margin-bottom: 100px;
 	padding: 25px 37px 25px 37px;
-	border-color: #FF9900;
+	border: none;
 	font-size: 23px;
 	line-height: 29px;
 	font-weight: 700;
 	color: #FFFFFF;
 	background-color: #FF9900;
 	transition: background .2s ease-in-out;
+	cursor: pointer;
 }
 
 .header-hero-btn:focus{
 	background-color: rgba(255, 153, 0, 0.7);
 	border-color: rgba(255, 153, 0, 0.7);
+}
+
+.header-hero-btn:focus-visible {
+	outline: 2px solid #FF9900;
 }
 
 .header-hero-btn:hover{
@@ -150,7 +245,7 @@ img{
 /* БЛОК О НАС */
 
 .aboutus{
-	margin-bottom: 105px;
+	margin-bottom: 95px;
 }
 
 .aboutus-heading{
@@ -207,6 +302,7 @@ img{
 	background: rgba(0, 0, 0, 0.0);
 	cursor: pointer;
 	transition: background .2s ease-in-out;
+	cursor: pointer;
 }
 
 .aboutus-block-first-common-description-btn:hover{
@@ -216,6 +312,10 @@ img{
 
 .aboutus-block-first-common-description-btn:focus{
 	background: #FF9900;
+}
+
+.aboutus-block-first-common-description-btn:focus-visible {
+	outline: 2px solid #FF9900;
 }
 
 .aboutus-block-first-common-description-btn:active{
@@ -294,14 +394,14 @@ img{
 }
 
 .work-steps-number-description{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
 	color: #333333;
 }
 
 .work-steps-number-description:not(:nth-child(4)){
 	margin-right: 85px;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 22px;
 }
 
 .work-steps-number-description:hover{
@@ -310,6 +410,10 @@ img{
 
 .work-steps-number-description:focus{
 	border: 2px solid #FF9900;
+}
+
+.work-steps-number-description:focus-visible {
+	outline: 2px solid #FF9900;
 }
 
 .work-steps-number-description:active{
@@ -332,7 +436,7 @@ img{
 	margin-bottom: 65px;
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 33px;
+	line-height: 32px;
 	width: 100%;
 	max-width: 758px;
 }
@@ -419,6 +523,7 @@ img{
 	transition-property: color border;
 	transition-duration: .2s;
 	transition-timing-function: ease-in-out;
+	cursor: pointer;
 }
 
 .questions-list-common:last-child{
@@ -453,16 +558,23 @@ img{
 	padding: 25px;
 	border: 0px;
 	background: url(/img/+х.svg) no-repeat center center;
+	cursor: pointer;
 	transition-property: background;
 	transition-duration: .2s;
 	transition-timing-function: ease-in-out;
 }
 
-.questions-list-common:hover .questions-list-common-list-btn{
+.questions-list-common-list-btn:focus-visible{
+	outline: 3px solid #FF9900;
+}
+
+.questions-list-common:hover 
+.questions-list-common-list-btn{
 	background: url(/img/+хhover.svg) no-repeat center center
 }
 
-.questions-list-common:focus .questions-list-common-list-btn{
+.questions-list-common:focus 
+.questions-list-common-list-btn{
 	background: url(/img/+хhover.svg) no-repeat center center;
 }
 
@@ -516,6 +628,10 @@ img{
 	padding: 5px;
 }
 
+.conteiner-footer-info-description-list-detailed-link:focus-visible{
+	outline: 2px solid #FF9900;
+}
+
 .conteiner-footer-info-description-list-detailed-link:active{
 	color: #E1670E;
 }
@@ -538,6 +654,10 @@ img{
 	padding: 2px;
 }
 
+.conteiner-footer-info-description-lan-facebook:focus-visible{
+	outline: 2px solid #FF9900;
+}
+
 .conteiner-footer-info-description-lan-facebook:active svg path{
 	fill: #E1670E;
 }
@@ -555,6 +675,10 @@ img{
 	padding: 2px;
 }
 
+.conteiner-footer-info-description-lan-vk:focus-visible{
+	outline: 2px solid #FF9900;
+}
+
 .conteiner-footer-info-description-lan-vk:active svg path{
 	fill: #E1670E;
 }
@@ -566,6 +690,10 @@ img{
 .conteiner-footer-info-description-lan-instagram:focus{
 	border: 2px solid #FF9900;
 	padding: 2px;
+}
+
+.conteiner-footer-info-description-lan-instagram:focus-visible{
+	outline: 2px solid #FF9900;
 }
 
 .conteiner-footer-info-description-lan-instagram:active svg path{
@@ -604,6 +732,10 @@ img{
 	background: #666666;
 }
 
+.conteiner-footer-form-name:focus-visible{
+	outline: 2px solid #FF9900;
+}
+
 .conteiner-footer-form-name:active{
 	background: #666666;
 }
@@ -626,6 +758,10 @@ img{
 
 .conteiner-footer-form-email:focus{
 	background: #666666;
+}
+
+.conteiner-footer-form-email:focus-visible{
+	outline: 2px solid #FF9900;
 }
 
 .conteiner-footer-form-email:active{
@@ -652,6 +788,10 @@ img{
 	background: #666666;
 }
 
+.conteiner-footer-form-text:focus-visible{
+	outline: 2px solid #FF9900;
+}
+
 .conteiner-footer-form-text:active{
 	background: #666666;
 }
@@ -663,11 +803,13 @@ img{
 .conteiner-footer-form-btn-send{
 	margin-right: 20px;
 	padding: 19px 52px;
+	border: none;
 	background: #FF9900;
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 19px;
 	color: #FFFFFF;
+	cursor: pointer;
 	transition: background 0.2s ease-in-out;
 }
 
@@ -677,6 +819,10 @@ img{
 
 .conteiner-footer-form-btn-send:focus{
 	background: #F7B045;
+}
+
+.conteiner-footer-form-btn-send:focus-visible{
+	outline: 2px solid #FF9900;
 }
 
 .conteiner-footer-form-btn-send:active{
@@ -691,6 +837,37 @@ img{
 	align-self: center;
 	color: #CACACA;
 }
+
+.footer-checkbox{
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+
+.footer-checkbox+label{
+	display: inline-flex;
+	align-items: center;
+	user-select: none;
+}
+
+.footer-checkbox+label::before{
+	content: '';
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #CACACA;
+	margin-right: 4px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.footer-checkbox:checked+label::before {
+	border-color: #CACACA;
+	background-color: #222222;
+	background-image: url(/img/checkbox.svg);
+	background-position-x: 1px;
+	cursor: pointer;
+  }
 
 .conteiner-footer-form-description{
 	padding-top: 90px;
