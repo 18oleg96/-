@@ -149,6 +149,10 @@ img{
 	border-bottom: 2px solid #E1670E;
 }
 
+.header-nav-list-burger{
+	display: none;
+}
+
 .header-nav-list-magnifier-open{
 	padding-top: 38px;
 	border: #FFFFFF;
@@ -879,4 +883,1134 @@ img{
 	font-weight: 400;
 	line-height: 32px;
 	color: #CACACA;
+}
+
+@media (min-width: 1025px) and (max-width: 1534px){
+
+	.header-logo1{
+		margin-top: 14px;
+		max-width: 180px;
+	}
+
+	.header-hero-heading{
+		font-size: 50px;
+		line-height: 55px;
+		font-weight: 800;
+	}
+
+	.header-nav-list-description{
+		font-size: 14px;
+	}
+
+	.aboutus-block{
+		flex-direction: column;
+	}
+
+	.aboutus-block-first{
+		margin-bottom: 32px;
+		width: 867px;
+		object-fit: contain;
+	}
+
+	.aboutus-block-two{
+		width: 100%;
+	}
+
+	.conteiner-footer-form-description{
+		display: none;
+	}
+
+	.conteiner-footer-form-btn{
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 1024px){
+
+	.header-nav-list-burger{
+		padding-top: 43px;
+		margin-bottom: 34px;
+		display: block;
+	}
+	
+	.header-nav-list-burger-open{
+		background-color: #FFFFFF;
+		border: none;
+	}
+
+	.header-logo1{
+		padding-top: 10px;
+		max-width: 150px;
+		margin: auto;
+	}
+
+	.header-nav-list-description{
+		display: none;
+	}
+
+	.header-nav-list-magnifier{
+		padding-top: 5px;
+	}
+
+	.header-hero{
+		margin-bottom: 80px;
+		padding-top: 160px;
+		padding-left: 77px;
+		width: 100%;
+		min-height: 668px;
+		background: url(/img/hero1024.jpg) no-repeat;
+		background-size: contain;
+	}
+
+	.header-hero-heading{
+		margin-bottom: 16px;
+		padding-top: 0;
+		width: 100%;
+		font-size: 60px;
+		font-weight: 800;
+		line-height: 73px;
+	}
+	.header-hero-description{
+		margin-bottom: 60px;
+		width: 80%;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 24px;
+	}
+
+	/* БЛОК О НАС */
+
+	.aboutus{
+		margin-bottom: 80px;
+	}
+
+	.aboutus-heading{
+		margin-bottom: 12px;
+	}
+
+	.aboutus-description{
+		margin-bottom: 60px;
+		width: 100%;
+	}
+
+	.aboutus-block{
+		flex-direction: column;
+	}
+
+	.aboutus-block-first{
+		margin-bottom: 32px;
+		width: 100%;
+		min-height: 640px;
+		background: url(/img/онас1024.jpg) no-repeat;
+	}
+
+	.aboutus-block-first-common{
+		width: 100%;
+	}
+
+	.aboutus-block-first-common-description{
+		margin-right: auto;
+		width: 55%;
+	}
+
+	.aboutus-block-two{
+		width: 100%;
+	}
+
+	.aboutus-block-two-consultation{
+		padding-left: 317px;
+		background-position-x: 75px;
+	}
+
+	.aboutus-block-two-aspiration{
+		padding-left: 317px;
+		background-position-x: 75px;
+	}
+
+	/* БЛОК КАК МЫ РАБОТЕМ */
+
+	.work{
+		margin-bottom: 80px;
+	}
+
+	.work-steps-consultation-left{
+		margin-right: 50px;
+		width: 84%;
+	}
+
+	.work-steps-consultation-description{
+		margin-bottom: 50px;
+	}
+
+	.work-steps-picture-background{
+		max-width: 437px;
+		min-height: 689px;
+		object-fit: cover;
+	}
+	
+	/* БЛОК ВОПРОСЫ */
+
+	.questions{
+		margin-bottom: 76px;
+	}
+
+	.questions-heading{
+		margin-bottom: 32px;
+	}
+
+	.questions-list-common-list-text{
+		width: 81%;
+		font-size: 20px;
+		line-height: 26px;
+	}
+	
+	/* БЛОК ФУТЕР */
+
+	.conteiner-footer{
+		width: 100%;
+	}
+
+	.conteiner-footer-info{
+		margin-right: 133px;
+	}
+
+	.conteiner-footer-info-description{
+		width: 251px;
+	}
+
+	.conteiner-footer-form{
+		margin-right: 0;
+	}
+
+	.conteiner-footer-form-description{
+		display: none;
+	}
+
+	.conteiner-footer-form-text{
+		margin-bottom: 37px;
+	}
+
+	.conteiner-footer-form-btn-send{
+		padding: 19px 38px;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 944px){
+
+	.header-hero{
+		padding-top: 40px;
+		margin-bottom: 20px;
+	}
+
+	.header-hero-heading{
+		padding-top: 30px;
+		margin-bottom: 24px;
+		width: 80%;
+		font-size: 40px;
+		line-height: 50px;
+		font-weight: 800;
+	}
+	
+	.header-hero-description{
+		margin-bottom: 90px;
+		width: 60%;
+		font-size: 16px;
+		line-height: 20px;
+		font-weight: 700;
+		color: #FFFFFF;
+	}
+
+	.work-steps-detailed-btn{
+		margin-right: 10px;
+		padding: 15px 42px;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 15px;
+	}
+
+	.work-steps-contract-btn{
+		padding: 15px 30px;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 15px;
+	}
+	.conteiner-footer-form-btn{
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 768px){
+
+	.header-nav-list-burger{
+		padding-top: 21px;
+		height: 23px;
+		display: block;
+	}
+	
+	.header-nav-list-burger-open{
+		padding-left: 0;
+		background-color: #FFFFFF;
+		border: none;
+	}
+
+	.header-logo1{
+		max-width: 150px;
+		margin: auto;
+		margin-bottom: 8px;
+	}
+
+	.header-nav{
+		height: 23px;
+	}
+
+	.header-nav-list-description{
+		display: none;
+	}
+
+	.header-nav-list-magnifier{
+		height: 23px;
+	}
+
+	.header-nav-list-magnifier-open{
+		padding-top: 18px;
+		padding-right: 0;
+	}
+
+	.header-nav-list-magnifier-open:focus{
+		margin-top: 10px;
+	}
+
+	.header-hero{
+		margin-bottom: 75px;
+		padding-top: 160px;
+		padding-left: 40px;
+		width: 100%;
+		min-height: 668px;
+		background: url(/img/hero768.jpg) no-repeat;
+		background-size: contain;
+	}
+
+	.header-hero-heading{
+		margin-bottom: 16px;
+		width: 100%;
+		font-size: 50px;
+		font-weight: 800;
+		line-height: 60px;
+	}
+	.header-hero-description{
+		margin-bottom: 60px;
+		width: 90%;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 22px;
+	}
+
+	/* БЛОК О НАС */
+
+	.aboutus{
+		margin-bottom: 80px;
+	}
+
+	.aboutus-heading{
+		margin-bottom: 10px;
+	}
+
+	.aboutus-description{
+		margin-bottom: 60px;
+		width: 100%;
+	}
+
+	.aboutus-block{
+		flex-direction: column;
+	}
+
+	.aboutus-block-first{
+		margin-bottom: 32px;
+		width: 100%;
+		min-height: 650px;
+		background: url(/img/онас768.jpg) no-repeat;
+	}
+
+	.aboutus-block-first-common{
+		padding: 34px 40px;
+		width: 668px;
+	}
+
+	.aboutus-block-first-common-description{
+		margin-right: auto;
+		width: 62%;
+	}
+
+	.aboutus-block-two{
+		width: 100%;
+	}
+
+	.aboutus-block-two-consultation{
+		padding-top: 35px;
+		padding-bottom: 35px;
+		padding-left: 170px;
+		background-position-x: 40px;
+		background-position-y: 65px;
+		background-size: 114px;
+	}
+
+	.aboutus-block-two-consultation-description{
+		width: 83%;
+	}
+
+	.aboutus-block-two-aspiration{
+		padding-top: 33px;
+		padding-bottom: 35px;
+		padding-left: 170px;
+		background-position-x: 40px;
+		background-position-y: 65px;
+		background-size: 114px;
+	}
+	
+	.aboutus-block-two-aspiration-description{
+		width: 93%;
+	}
+
+	/* БЛОК КАК МЫ РАБОТЕМ */
+
+	.work{
+		margin-bottom: 100px;
+	}
+
+	.work-steps-number{
+		justify-content: space-between;
+		margin-bottom: 50px;
+	}
+
+	.work-steps-consultation{
+		flex-direction: column-reverse;
+	}
+
+	.work-steps-picture{
+		margin-bottom: 38px;
+		max-width: 668px;
+		min-height: 284px;
+		background: url(/img/работа768.jpg) no-repeat;
+	}
+
+	.work-steps-picture-background{
+		display: none;
+	}
+
+	.work-steps-consultation-left{
+		width: 100%;
+	}
+
+	.work-steps-consultation-description{
+		margin-bottom: 45px;
+	}
+
+	/* БЛОК ВОПРОСЫ */
+
+	.questions{
+		margin-bottom: 87px;
+	}
+
+	.questions-list-common-list-text{
+		width: 87%;
+		line-height: 25px;
+	}
+
+	/* БЛОК ФУТЕР */
+
+	.conteiner-footer{
+		flex-direction: column-reverse;
+	}
+
+	.conteiner-footer-form-name{
+		width: 81%;
+	}
+
+	.conteiner-footer-form-email{
+		width: 81%;
+	}
+
+	.conteiner-footer-form-text{
+		width: 81%;	
+	}
+
+	.conteiner-footer-form{
+		margin-bottom: 54px;
+	}
+
+	.conteiner-footer-info-lodo{
+		margin-bottom: 10px;
+	}
+
+	.logo-footer{
+		max-width: 224px;
+	}
+
+	.conteiner-footer-info-description{
+		display: none;
+	}
+}
+
+@media (min-width: 455px) and (max-width: 685px){
+
+	.header-hero{
+		margin-bottom: 10px;
+		width: 100%;
+		padding-top: 50px;
+		padding-left: 4px;
+		min-height: 308px;
+		background: url(/img/hero1024.jpg) no-repeat;
+		background-size: cover;
+	}
+
+	.header-hero-heading{
+		margin-left: 18px;
+		margin-bottom: 8px;
+		width: 65%;
+		font-size: 20px;
+		font-weight: 800;
+		line-height: 24px;
+	}
+	.header-hero-description{
+		padding-left: 18px;
+		width: 70%;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 15px;
+	}
+	.header-hero-btn{
+		margin-bottom: 0px;
+		margin-left: 18px;
+		padding: 12px 29px 13px 28px;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 15px;
+	}
+
+	.aboutus-block{
+		flex-direction: column;
+	}
+
+	.aboutus-block-first{
+		width: 100%;
+		height: 400px;
+		min-height: 200px;
+		background: url(/img/онас320.jpg) no-repeat;
+		padding: 0px;
+		flex-direction: column;
+		display: block;
+	}
+	
+	.aboutus-block-first-common{
+		padding-top: 210px;
+		padding-right: 0;
+		padding-bottom: 0px;
+		padding-left: 0;
+		flex-direction: column;
+		background: none;
+	}
+
+	.aboutus-block-first-common-description{
+		margin-bottom: 8px;
+		width: 50%;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 28px;
+		color: #333333;
+	}
+	.aboutus-block-first-common-description-btn{
+		margin-right: auto;
+		padding: 11px 40px;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 15px;
+		color: #FF9900;
+	}
+
+	.aboutus-block-first-common-description-btn:hover{
+		color: #FFFFFF;
+	}
+
+	.aboutus-block-first-common-description-btn:focus{
+		color: #FFFFFF;
+	}
+		
+	.aboutus-block-first-common-description-btn:active{
+		color: #FFFFFF;
+	}
+
+	.aboutus-block-two-consultation{
+		padding: 0;
+		border: none;
+		background: url(/img/онас2320.svg) no-repeat;
+	}
+
+	.aboutus-block-two-consultation-heading{
+		margin-bottom: 3px;
+		padding-top: 60px;
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 22px;
+	}
+
+	.aboutus-block-two-consultation-description{
+		width: 100%;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 28px;
+	}
+
+	.aboutus-block-two-aspiration{
+		padding: 0;
+		border: none;
+		background: url(/img/онас3320.svg) no-repeat;
+	}
+
+	.aboutus-block-two-aspiration-heading{
+		margin-bottom: 5px;
+		padding-top: 60px;
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 22px;
+	}
+
+	.aboutus-block-two-aspiration-description{
+		width: 100%;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 28px;
+	}
+
+	.conteiner-footer-form-btn{
+		flex-direction: column;
+	}
+}
+
+@media (min-width: 321px) and (max-width: 454px){
+
+	.conteiner{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.header-hero{
+		margin-bottom: 10px;
+		width: 100%;
+		padding-top: 20px;
+		padding-left: 4px;
+		min-height: 308px;
+		background: url(/img/hero1024.jpg) no-repeat;
+		background-size: contain;
+	}
+
+	.header-hero-heading{
+		margin-left: 18px;
+		margin-bottom: 8px;
+		width: 90%;
+		font-size: 20px;
+		font-weight: 800;
+		line-height: 24px;
+	}
+	.header-hero-description{
+		margin-bottom: 18px;
+		padding-left: 18px;
+		width: 70%;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 15px;
+	}
+	.header-hero-btn{
+		margin-bottom: 0px;
+		margin-left: 18px;
+		padding: 12px 29px 13px 28px;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 15px;
+	}
+
+	.aboutus-block{
+		flex-direction: column;
+	}
+
+	.aboutus-block-first{
+		width: 100%;
+		height: 400px;
+		min-height: 200px;
+		background: url(/img/онас320.jpg) no-repeat;
+		padding: 0px;
+		flex-direction: column;
+		display: block;
+	}
+	
+	.aboutus-block-first-common{
+		padding-top: 210px;
+		padding-right: 0;
+		padding-bottom: 0px;
+		padding-left: 0;
+		flex-direction: column;
+		background: none;
+	}
+
+	.aboutus-block-first-common-description{
+		margin-bottom: 8px;
+		width: 50%;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 28px;
+		color: #333333;
+	}
+	.aboutus-block-first-common-description-btn{
+		margin-right: auto;
+		padding: 11px 40px;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 15px;
+		color: #FF9900;
+	}
+
+	.aboutus-block-first-common-description-btn:hover{
+		color: #FFFFFF;
+	}
+
+	.aboutus-block-first-common-description-btn:focus{
+		color: #FFFFFF;
+	}
+		
+	.aboutus-block-first-common-description-btn:active{
+		color: #FFFFFF;
+	}
+
+	.aboutus-block-two-consultation{
+		padding: 0;
+		border: none;
+		background: url(/img/онас2320.svg) no-repeat;
+	}
+
+	.aboutus-block-two-consultation-heading{
+		margin-bottom: 3px;
+		padding-top: 60px;
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 22px;
+	}
+
+	.aboutus-block-two-consultation-description{
+		width: 100%;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 28px;
+	}
+
+	.aboutus-block-two-aspiration{
+		padding: 0;
+		border: none;
+		background: url(/img/онас3320.svg) no-repeat;
+	}
+
+	.aboutus-block-two-aspiration-heading{
+		margin-bottom: 5px;
+		padding-top: 60px;
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 22px;
+	}
+
+	.aboutus-block-two-aspiration-description{
+		width: 100%;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 28px;
+	}
+
+	.work-steps-number-description{
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 17px;
+	}
+
+	.work-steps-detailed-btn{
+		margin-right: 10px;
+		padding: 11px 42px;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 15px;
+	}
+
+	.work-steps-contract-btn{
+		padding: 11px 30px;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 15px;
+	}
+
+	.conteiner-footer-form-btn{
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 320px){
+	
+	.conteiner{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.header-up{
+		margin-bottom: 12px;
+	}
+
+	.header-nav-list-burger{
+		padding-top: 21px;
+		height: 23px;
+		display: block;
+	}
+	
+	.header-nav-list-burger-open{
+		padding-left: 0;
+		background-color: #FFFFFF;
+		border: none;
+	}
+
+	.header-logo1{
+		padding-top: 17px;
+		margin-bottom: 60px;
+		max-width: 110px;
+		margin: auto;
+	}
+
+	.header-hero{
+		margin-bottom: 60px;
+		width: 100%;
+		padding-top: 60px;
+		padding-left: 4px;
+		min-height: 308px;
+		background: url(/img/hero320.jpg) no-repeat;
+		background-size: contain;
+	}
+
+	.header-hero-heading{
+		margin-bottom: 8px;
+		width: 100%;
+		font-size: 20px;
+		font-weight: 800;
+		line-height: 24px;
+		text-align: center;
+	}
+	.header-hero-description{
+		margin-bottom: 32px;
+		margin-right: 21px;
+		padding-left: 18px;
+		width: 94%;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 15px;
+		text-align: center;
+	}
+	.header-hero-btn{
+		margin-bottom: 0px;
+		margin-left: 60px;
+		padding: 12px 29px 13px 28px;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 15px;
+	}
+
+	/* БЛОК О НАС */
+
+	.aboutus{
+		margin-bottom: 60px;
+	}
+
+	.aboutus-heading{
+		margin-bottom: 20px;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 29px;
+	}
+
+	.aboutus-description{
+		margin-bottom: 14px;
+		width: 100%;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 28px;
+	}
+
+	.aboutus-block{
+		flex-direction: column;
+	}
+
+	.aboutus-block-first{
+		width: 100%;
+		height: 400px;
+		min-height: 200px;
+		background: url(/img/онас320.jpg) no-repeat;
+		padding: 0px;
+		flex-direction: column;
+		display: block;
+	}
+	
+	.aboutus-block-first-common{
+		padding-top: 210px;
+		padding-right: 0;
+		padding-bottom: 0px;
+		padding-left: 0;
+		flex-direction: column;
+		background: none;
+	}
+
+	.aboutus-block-first-common-description{
+		margin-bottom: 8px;
+		width: 40%;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 28px;
+		color: #333333;
+	}
+	.aboutus-block-first-common-description-btn{
+		margin-right: auto;
+		padding: 11px 40px;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 15px;
+		color: #FF9900;
+	}
+
+	.aboutus-block-first-common-description-btn:hover{
+		color: #FFFFFF;
+	}
+
+	.aboutus-block-first-common-description-btn:focus{
+		color: #FFFFFF;
+	}
+		
+	.aboutus-block-first-common-description-btn:active{
+		color: #FFFFFF;
+	}
+
+	.aboutus-block-two-consultation{
+		padding: 0;
+		border: none;
+		background: url(/img/онас2320.svg) no-repeat;
+	}
+
+	.aboutus-block-two-consultation-heading{
+		margin-bottom: 3px;
+		padding-top: 60px;
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 22px;
+	}
+
+	.aboutus-block-two-consultation-description{
+		width: 100%;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 28px;
+	}
+
+	.aboutus-block-two-aspiration{
+		padding: 0;
+		border: none;
+		background: url(/img/онас3320.svg) no-repeat;
+	}
+
+	.aboutus-block-two-aspiration-heading{
+		margin-bottom: 5px;
+		padding-top: 60px;
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 22px;
+	}
+
+	.aboutus-block-two-aspiration-description{
+		width: 100%;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 28px;
+	}
+
+	/* БЛОК КАК МЫ РАБОТЕМ */
+
+	.work{
+		margin-bottom: 70px;
+	}
+	
+	.work-heading{
+		margin-bottom: 22px;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 30px;
+	}
+
+	.work-steps-number{
+		margin-bottom: 16px;
+	}
+
+	.work-steps-number-description{
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 17px;
+	}
+
+	.work-steps-number-description:hover{
+		color: #FF9900;
+	}
+	
+	.work-steps-number-description:focus{
+		width: 15%;
+		border: 1px solid #FF9900;
+	}
+	
+	.work-steps-number-description:focus-visible {
+		outline: 1px solid #FF9900;
+	}
+
+	.work-steps-number-description:not(:nth-child(4)){
+		margin-right: 44px;
+	}
+
+	.work-steps-picture1{
+		margin-bottom: 16px;
+		height: 160px;
+	}
+
+	.work-steps-picture{
+		background: url(/img/работа320.jpg) no-repeat;
+	}
+
+	.work-steps-consultation-heading{
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 32px;
+	}
+
+	.work-steps-consultation-description{
+		margin-bottom: 26px;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 28px;
+	}
+
+	.work-steps-detailed-btn{
+		margin-right: 10px;
+		padding: 11px 42px;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 15px;
+	}
+
+	.work-steps-contract-btn{
+		padding: 11px 30px;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 15px;
+	}
+
+	/* БЛОК ВОПРОСЫ */
+
+	.questions{
+		margin-bottom: 55px;
+	}
+
+	.questions-heading{
+		margin-bottom: 17px;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 29px;
+	}
+
+	.questions-list-common-list-text{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		width: 100%;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 23px;
+	}
+
+	/* БЛОК ФУТЕР */
+
+	.conteiner-footer{
+		padding-top: 30px;
+	}
+
+	.conteiner-footer-form{
+		margin-bottom: 16px;
+	}
+
+	.conteiner-footer-form-heading{
+		margin-bottom: 23px;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 29px;
+	}
+
+	.conteiner-footer-form-name{
+		width: 100%;
+	}
+
+	.conteiner-footer-form-email{
+		width: 100%;
+	}
+
+	.conteiner-footer-form-text{
+		margin-bottom: 29px;
+		width: 100%;
+	}
+
+	.conteiner-footer-form-btn{
+		flex-direction: column;
+	}
+
+	.conteiner-footer-form-btn-send{
+		margin: auto;
+		margin-bottom: 11px;
+		padding: 12px 25px;
+		width: 60%;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 15px;
+	}
+	.conteiner-footer-form-approval-checkbox{
+		padding-bottom: 16px;
+		border-bottom: 1px solid #595959;
+	}
+
+	.conteiner-footer-info{
+		margin: auto;
+		width: 48%;
+	}
+
+	.conteiner-footer-info-lodo{
+		margin-bottom: 1px;
+	}
+
+	.logo-footer{
+		max-width: 131px;
+	}
+
+	.conteiner-footer-info-description-lan{
+		margin-bottom: 32px;
+	}
+
+	.conteiner-footer-info-description-lan-facebook{
+		margin-right: 16px;
+	}
+
+	.conteiner-footer-info-description-lan-facebook svg{
+		width: 40px;
+	}
+
+	.conteiner-footer-info-description-lan-vk{
+		margin-right: 16px;
+	}
+
+	.conteiner-footer-info-description-lan-vk svg{
+		width: 40px;
+	}
+
+	.conteiner-footer-info-description-lan-instagram svg{
+		width: 40px;
+	}
 }
