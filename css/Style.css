@@ -885,7 +885,7 @@ img{
 	color: #CACACA;
 }
 
-@media (min-width: 1025px) and (max-width: 1534px){
+@media (max-width: 1534px){
 
 	.header-logo1{
 		margin-top: 14px;
@@ -923,9 +923,9 @@ img{
 	.conteiner-footer-form-btn{
 		flex-direction: column;
 	}
-}
+} 
 
-@media (max-width: 1024px){
+@media (max-width: 1200px){
 
 	.header-nav-list-burger{
 		padding-top: 43px;
@@ -959,7 +959,7 @@ img{
 		width: 100%;
 		min-height: 668px;
 		background: url(/img/hero1024.jpg) no-repeat;
-		background-size: contain;
+		background-size: cover;
 	}
 
 	.header-hero-heading{
@@ -1006,6 +1006,7 @@ img{
 
 	.aboutus-block-first-common{
 		width: 100%;
+		max-width: 923px;
 	}
 
 	.aboutus-block-first-common-description{
@@ -1095,51 +1096,7 @@ img{
 	}
 }
 
-@media (min-width: 769px) and (max-width: 944px){
-
-	.header-hero{
-		padding-top: 40px;
-		margin-bottom: 20px;
-	}
-
-	.header-hero-heading{
-		padding-top: 30px;
-		margin-bottom: 24px;
-		width: 80%;
-		font-size: 40px;
-		line-height: 50px;
-		font-weight: 800;
-	}
-	
-	.header-hero-description{
-		margin-bottom: 90px;
-		width: 60%;
-		font-size: 16px;
-		line-height: 20px;
-		font-weight: 700;
-		color: #FFFFFF;
-	}
-
-	.work-steps-detailed-btn{
-		margin-right: 10px;
-		padding: 15px 42px;
-		font-size: 12px;
-		font-weight: 700;
-		line-height: 15px;
-	}
-
-	.work-steps-contract-btn{
-		padding: 15px 30px;
-		font-size: 12px;
-		font-weight: 400;
-		line-height: 15px;
-	}
-	.conteiner-footer-form-btn{
-		flex-direction: column;
-	}
-}
-
-@media (max-width: 768px){
+@media (max-width: 992px){
 
 	.header-nav-list-burger{
 		padding-top: 21px;
@@ -1187,7 +1144,7 @@ img{
 		width: 100%;
 		min-height: 668px;
 		background: url(/img/hero768.jpg) no-repeat;
-		background-size: contain;
+		background-size: cover;
 	}
 
 	.header-hero-heading{
@@ -1351,304 +1308,7 @@ img{
 	}
 }
 
-@media (min-width: 455px) and (max-width: 685px){
-
-	.header-hero{
-		margin-bottom: 10px;
-		width: 100%;
-		padding-top: 50px;
-		padding-left: 4px;
-		min-height: 308px;
-		background: url(/img/hero1024.jpg) no-repeat;
-		background-size: cover;
-	}
-
-	.header-hero-heading{
-		margin-left: 18px;
-		margin-bottom: 8px;
-		width: 65%;
-		font-size: 20px;
-		font-weight: 800;
-		line-height: 24px;
-	}
-	.header-hero-description{
-		padding-left: 18px;
-		width: 70%;
-		font-size: 12px;
-		font-weight: 700;
-		line-height: 15px;
-	}
-	.header-hero-btn{
-		margin-bottom: 0px;
-		margin-left: 18px;
-		padding: 12px 29px 13px 28px;
-		font-size: 12px;
-		font-weight: 700;
-		line-height: 15px;
-	}
-
-	.aboutus-block{
-		flex-direction: column;
-	}
-
-	.aboutus-block-first{
-		width: 100%;
-		height: 400px;
-		min-height: 200px;
-		background: url(/img/онас320.jpg) no-repeat;
-		padding: 0px;
-		flex-direction: column;
-		display: block;
-	}
-	
-	.aboutus-block-first-common{
-		padding-top: 210px;
-		padding-right: 0;
-		padding-bottom: 0px;
-		padding-left: 0;
-		flex-direction: column;
-		background: none;
-	}
-
-	.aboutus-block-first-common-description{
-		margin-bottom: 8px;
-		width: 50%;
-		font-size: 14px;
-		font-weight: 400;
-		line-height: 28px;
-		color: #333333;
-	}
-	.aboutus-block-first-common-description-btn{
-		margin-right: auto;
-		padding: 11px 40px;
-		font-size: 12px;
-		font-weight: 700;
-		line-height: 15px;
-		color: #FF9900;
-	}
-
-	.aboutus-block-first-common-description-btn:hover{
-		color: #FFFFFF;
-	}
-
-	.aboutus-block-first-common-description-btn:focus{
-		color: #FFFFFF;
-	}
-		
-	.aboutus-block-first-common-description-btn:active{
-		color: #FFFFFF;
-	}
-
-	.aboutus-block-two-consultation{
-		padding: 0;
-		border: none;
-		background: url(/img/онас2320.svg) no-repeat;
-	}
-
-	.aboutus-block-two-consultation-heading{
-		margin-bottom: 3px;
-		padding-top: 60px;
-		font-size: 18px;
-		font-weight: 500;
-		line-height: 22px;
-	}
-
-	.aboutus-block-two-consultation-description{
-		width: 100%;
-		font-size: 14px;
-		font-weight: 400;
-		line-height: 28px;
-	}
-
-	.aboutus-block-two-aspiration{
-		padding: 0;
-		border: none;
-		background: url(/img/онас3320.svg) no-repeat;
-	}
-
-	.aboutus-block-two-aspiration-heading{
-		margin-bottom: 5px;
-		padding-top: 60px;
-		font-size: 18px;
-		font-weight: 500;
-		line-height: 22px;
-	}
-
-	.aboutus-block-two-aspiration-description{
-		width: 100%;
-		font-size: 14px;
-		font-weight: 400;
-		line-height: 28px;
-	}
-
-	.conteiner-footer-form-btn{
-		flex-direction: column;
-	}
-}
-
-@media (min-width: 321px) and (max-width: 454px){
-
-	.conteiner{
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-
-	.header-hero{
-		margin-bottom: 10px;
-		width: 100%;
-		padding-top: 20px;
-		padding-left: 4px;
-		min-height: 308px;
-		background: url(/img/hero1024.jpg) no-repeat;
-		background-size: contain;
-	}
-
-	.header-hero-heading{
-		margin-left: 18px;
-		margin-bottom: 8px;
-		width: 90%;
-		font-size: 20px;
-		font-weight: 800;
-		line-height: 24px;
-	}
-	.header-hero-description{
-		margin-bottom: 18px;
-		padding-left: 18px;
-		width: 70%;
-		font-size: 12px;
-		font-weight: 700;
-		line-height: 15px;
-	}
-	.header-hero-btn{
-		margin-bottom: 0px;
-		margin-left: 18px;
-		padding: 12px 29px 13px 28px;
-		font-size: 12px;
-		font-weight: 700;
-		line-height: 15px;
-	}
-
-	.aboutus-block{
-		flex-direction: column;
-	}
-
-	.aboutus-block-first{
-		width: 100%;
-		height: 400px;
-		min-height: 200px;
-		background: url(/img/онас320.jpg) no-repeat;
-		padding: 0px;
-		flex-direction: column;
-		display: block;
-	}
-	
-	.aboutus-block-first-common{
-		padding-top: 210px;
-		padding-right: 0;
-		padding-bottom: 0px;
-		padding-left: 0;
-		flex-direction: column;
-		background: none;
-	}
-
-	.aboutus-block-first-common-description{
-		margin-bottom: 8px;
-		width: 50%;
-		font-size: 14px;
-		font-weight: 400;
-		line-height: 28px;
-		color: #333333;
-	}
-	.aboutus-block-first-common-description-btn{
-		margin-right: auto;
-		padding: 11px 40px;
-		font-size: 12px;
-		font-weight: 700;
-		line-height: 15px;
-		color: #FF9900;
-	}
-
-	.aboutus-block-first-common-description-btn:hover{
-		color: #FFFFFF;
-	}
-
-	.aboutus-block-first-common-description-btn:focus{
-		color: #FFFFFF;
-	}
-		
-	.aboutus-block-first-common-description-btn:active{
-		color: #FFFFFF;
-	}
-
-	.aboutus-block-two-consultation{
-		padding: 0;
-		border: none;
-		background: url(/img/онас2320.svg) no-repeat;
-	}
-
-	.aboutus-block-two-consultation-heading{
-		margin-bottom: 3px;
-		padding-top: 60px;
-		font-size: 18px;
-		font-weight: 500;
-		line-height: 22px;
-	}
-
-	.aboutus-block-two-consultation-description{
-		width: 100%;
-		font-size: 14px;
-		font-weight: 400;
-		line-height: 28px;
-	}
-
-	.aboutus-block-two-aspiration{
-		padding: 0;
-		border: none;
-		background: url(/img/онас3320.svg) no-repeat;
-	}
-
-	.aboutus-block-two-aspiration-heading{
-		margin-bottom: 5px;
-		padding-top: 60px;
-		font-size: 18px;
-		font-weight: 500;
-		line-height: 22px;
-	}
-
-	.aboutus-block-two-aspiration-description{
-		width: 100%;
-		font-size: 14px;
-		font-weight: 400;
-		line-height: 28px;
-	}
-
-	.work-steps-number-description{
-		font-size: 14px;
-		font-weight: 400;
-		line-height: 17px;
-	}
-
-	.work-steps-detailed-btn{
-		margin-right: 10px;
-		padding: 11px 42px;
-		font-size: 12px;
-		font-weight: 700;
-		line-height: 15px;
-	}
-
-	.work-steps-contract-btn{
-		padding: 11px 30px;
-		font-size: 12px;
-		font-weight: 400;
-		line-height: 15px;
-	}
-
-	.conteiner-footer-form-btn{
-		flex-direction: column;
-	}
-}
-
-@media (max-width: 320px){
+@media (max-width: 576px){
 	
 	.conteiner{
 		padding-left: 15px;
@@ -1684,8 +1344,8 @@ img{
 		padding-top: 60px;
 		padding-left: 4px;
 		min-height: 308px;
-		background: url(/img/hero320.jpg) no-repeat;
-		background-size: contain;
+		background: url(/img/hero1024.jpg) no-repeat;
+		background-size: cover;
 	}
 
 	.header-hero-heading{
