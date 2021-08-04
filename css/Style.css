@@ -46,12 +46,20 @@ body{
     font-size: 16px;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 a{
 	text-decoration: none;
 }
 
 h1{
 	margin: 0;
+}
+
+h2{
+	color: #333333;
 }
 
 ul{
@@ -346,6 +354,7 @@ img{
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 29px;
+	color: #333333;
 }
 
 .aboutus-block-two-consultation-description{
@@ -369,6 +378,7 @@ img{
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 29px;
+	color: #333333;
 }
 
 .aboutus-block-two-aspiration-description{
@@ -433,6 +443,7 @@ img{
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 32px;
+	color: #333333;
 }
 
 .work-steps-consultation-description{
@@ -556,6 +567,7 @@ img{
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 32px;
+	color: #333333;
 }
 
 .questions-list-common-list-btn{
@@ -921,7 +933,7 @@ img{
 	}
 
 	.conteiner-footer-form-btn{
-		flex-direction: column;
+		flex-direction: row;
 	}
 } 
 
@@ -953,7 +965,7 @@ img{
 	}
 
 	.header-hero{
-		margin-bottom: 80px;
+		margin-bottom: 70px;
 		padding-top: 160px;
 		padding-left: 77px;
 		width: 100%;
@@ -1039,6 +1051,10 @@ img{
 		width: 84%;
 	}
 
+	.work-steps-number{
+		margin-bottom: 50px;
+	}
+
 	.work-steps-consultation-description{
 		margin-bottom: 50px;
 	}
@@ -1052,7 +1068,7 @@ img{
 	/* БЛОК ВОПРОСЫ */
 
 	.questions{
-		margin-bottom: 76px;
+		margin-bottom: 74px;
 	}
 
 	.questions-heading{
@@ -1091,8 +1107,13 @@ img{
 		margin-bottom: 37px;
 	}
 
+	.conteiner-footer-form-btn{
+		flex-direction: row;
+	}
+	
 	.conteiner-footer-form-btn-send{
 		padding: 19px 38px;
+		margin-right: 15px;
 	}
 }
 
@@ -1295,6 +1316,15 @@ img{
 		margin-bottom: 54px;
 	}
 
+	.conteiner-footer-form-btn{
+		flex-direction: row;
+	}
+
+	.conteiner-footer-form-btn-send{
+		width: 37%;
+		margin-right: 15px;
+	}
+
 	.conteiner-footer-info-lodo{
 		margin-bottom: 10px;
 	}
@@ -1367,8 +1397,9 @@ img{
 		text-align: center;
 	}
 	.header-hero-btn{
+		display: block;
+		margin: auto;
 		margin-bottom: 0px;
-		margin-left: 60px;
 		padding: 12px 29px 13px 28px;
 		font-size: 12px;
 		font-weight: 700;
@@ -1647,11 +1678,14 @@ img{
 	}
 
 	.logo-footer{
+		margin: auto;
+		display: block;
 		max-width: 131px;
 	}
 
 	.conteiner-footer-info-description-lan{
 		margin-bottom: 32px;
+		justify-content: center;
 	}
 
 	.conteiner-footer-info-description-lan-facebook{
